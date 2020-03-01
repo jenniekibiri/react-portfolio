@@ -13,12 +13,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "rename": "renamer --find App-clear.js --replace App.js ./src/App-clear.js",
-    "remove-demo": "rimraf ./src/font ./src/img ./src/pages ./src/Routes.js ./src/App.js && npm run rename"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "renamer": "^1.0.0",

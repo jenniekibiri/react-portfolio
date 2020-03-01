@@ -2,6 +2,8 @@
   "short_name": "React App",
   
   "name": "Create React App Sample",
+  
+  "homepage": "https://github.com/jenniekibiri/react-portfolio/",
 
   "icons": [
     {
